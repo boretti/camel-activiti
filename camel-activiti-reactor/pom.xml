@@ -17,5 +17,6 @@
 		<module>../camel-activiti-parent</module>
 		<module>../camel-activiti-webapps</module>
 		<module>../camel-activiti-webapps-demo1</module>
+		<module>../camel-activiti-importer</module>
 	</modules>
 </project>
