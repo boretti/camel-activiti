@@ -8,6 +8,13 @@
 	<name>Camel Activiti Parent Pom</name>
 	<description>Parent of all camel activiti project</description>
 
+	<modules>
+		<module>../camel-activiti-parent</module>
+		<module>../camel-activiti-webapps</module>
+		<module>../camel-activiti-webapps-demo1</module>
+		<module>../camel-activiti-importer</module>
+	</modules>
+
 	<properties>
 		<camel.version>2.11.1</camel.version>
 		<activiti.version>5.13</activiti.version>
