@@ -5,6 +5,7 @@
 		<groupId>ch.boretti.integrator.camel-activiti</groupId>
 		<artifactId>camel-activiti-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../camel-activiti-parent</relativePath>
 	</parent>
 	<artifactId>camel-activiti-importer</artifactId>
 	<packaging>pom</packaging>
