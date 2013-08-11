@@ -8,9 +8,8 @@
        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.1.xsd
        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
 
-	<import resource="activiti-standalone-context.xml" />
-	<import resource="activiti-ui-context.xml" />
-	<import resource="classpath*:camel-context-*.xml" />
-	<import resource="classpath*:activiti-context-*.xml" />
+	<camelContext id="camelContext" xmlns="http://camel.apache.org/schema/spring">
+		<contextScan />
+	</camelContext>
 
 </beans>
